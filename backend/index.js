@@ -16,7 +16,7 @@ const app = express();
 // Middlewares
 const allowedOrigins = [
     'http://localhost:5173', // frontend en local
-    'https://votre-nom-de-site-frontend.onrender.com' // L'URL du site sur Render
+    'https://netflix-clone-backend-kl8a.onrender.com' // L'URL du site sur Render
 ];
 app.use(cors({
     origin: function (origin, callback) {
