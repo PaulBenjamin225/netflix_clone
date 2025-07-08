@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 const cors = require('cors');
 
 // Importer les routes
-const authRoutes = require('./routes/authRoutes');
+const authRoutes = require('./routes/authRoutes'); 
 const contentRoutes = require('./routes/contentRoutes');
 const profileRoutes = require('./routes/profileRoutes');
 const userStateRoutes = require('./routes/userStateRoutes');
@@ -16,7 +16,7 @@ const app = express();
 // Middlewares
 const allowedOrigins = [
     'http://localhost:5173', // frontend en local
-    'https://netflix-clone-khyp.onrender.com' // L'URL du site sur Render
+    'https://netflix-clone-6qv5.onrender.com' // L'URL du site sur Render
 ];
 app.use(cors({
     origin: function (origin, callback) {
